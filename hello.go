@@ -6,7 +6,8 @@ func main() {
 	var locale string = "es"
 	var greeting string = "Yo"
 
-	fmt.Print("Please enter a language: ")
+	/* var languages string = "es" , "en", "de" , "fr" */
+
 	fmt.Scanf("%s", &locale)
 
 	if locale == "en" {
@@ -15,6 +16,8 @@ func main() {
 		greeting = "Hola"
 	} else if locale == "de" {
 		greeting = "Gutentag"
+	} else if locale == "fr" {
+		greeting = "Bonjour"
 	}
 
 	fmt.Printf(greeting + " Go!\n")
