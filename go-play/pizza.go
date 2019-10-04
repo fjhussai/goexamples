@@ -4,10 +4,10 @@ import "fmt"
 
 func main() {
 	fmt.Println("Do you like Pizza? \n")
-	var likespizza string
-	fmt.Scanln(&likespizza)
+	var answer string //Changed var likespizza to answer, for simplicity.
+	fmt.Scanln(&answer)
 
-	if (likespizza) == "no" {
+	if (answer) == "no" {
 		fmt.Println("Thank you for your response")
 	} else {
 		fmt.Println("What kind of Piza do you like?")
