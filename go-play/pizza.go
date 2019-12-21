@@ -10,8 +10,9 @@ func main() {
 	if (answer) == "no" {
 		fmt.Println("Thank you for your response")
 	} else {
-		fmt.Println("What kind of Piza do you like?")
-		fmt.Println("i like pizza cheese")
+		fmt.Println("What kind of Pizza do you like?")
+		var kindpizza string
+		fmt.Scanln(&kindpizza)
 	}
 
 }
